@@ -5,7 +5,10 @@ const Title = () => {
   return (
     <>
       <div className={styles.mainContainer}>
-        <p className={styles.titleTextLarge}>Crane Song</p>
+        <div className={styles.textContainer}>
+          <p className={styles.titleTextLarge}>Crane Song</p>
+          <p className={styles.titleTextSmall}>a singer songwriter from CA</p>
+        </div>
       </div>
     </>
   )
