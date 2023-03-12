@@ -28,6 +28,16 @@ $screen-xl-min: 1200px;
   display: grid;
   align-items: center;
   justify-content: center;
+  height: 80vh;
+}
+.scroller {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+.scroller section {
+  height: 100vh;
+  scroll-snap-align: start;
 }
 .textContainer {
 	margin: 1rem;
@@ -48,7 +58,8 @@ $screen-xl-min: 1200px;
   justify-items: center;
 }
 .linkList {
-  font-size: 3.3rem;
+  margin: auto;
+  font-size: 4rem;
 }
 .paragraphText {
 	margin: auto;

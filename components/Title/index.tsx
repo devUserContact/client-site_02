@@ -4,7 +4,9 @@ import styles from '../../styles/Main.module.scss'
 const Title = () => {
   return (
     <>
-      <p className={styles.titleTextLarge}>Crane Song</p>
+      <div className={styles.mainContainer}>
+        <p className={styles.titleTextLarge}>Crane Song</p>
+      </div>
     </>
   )
 }

@@ -6,13 +6,11 @@ import styles from '../../styles/Main.module.scss'
 const SnapScroll = () => {
   return (
     <>
-      <div className={styles.SnapScroll}>
+      <div className={styles.scroller}>
         <section>
           <Title />
-          <LinkList />
         </section>
         <section>
-          <Title />
           <LinkList />
         </section>
       </div>
